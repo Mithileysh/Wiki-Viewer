@@ -1,0 +1,130 @@
+.lucky btn
+{
+  font-size:40px;
+  width:40px;
+}
+#random
+{
+  background: #00CED1;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+a{
+  color:#FF1493;
+}
+form {
+  display: inline-flex;
+  width: 60%;
+}
+h1
+{
+  font-family:Times New Roman;
+  font-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+#search
+{
+  cursor: pointer;
+ 
+
+}
+ul {
+  text-align: left;
+  margin-left: 20px;
+  font-family: "Raleway", sans-serif;
+  margin-right: 5px;
+  padding-left: 0;
+  width: 80%;
+}
+
+li {
+  margin: 10px;
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 30px 5px 30px;
+  background-color: white;
+}
+#wikiimage
+{
+  height:300px;
+}
+#search-box
+{
+  width: 100%;
+  padding: 15px;
+  background: rgb(250, 250, 250);
+  border-left: 5px solid transparent;
+ 
+ box-shadow: 10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+  
+font-size: 20px;
+}
+#text1
+{
+  font-size: 30px;
+  font-weight:bold;;
+  color: red;
+}
+.form-control
+{
+  border:solid;
+  width:800px;
+  font-size: 20px;
+}
+.fa-search
+{
+  
+  position: absolute;
+  left: 1100px;
+  font-size: 40px;
+  margin-top: -40px;
+  
+}
+#output
+{
+  text-align: left;
+  margin-left: 20px;
+  font-family: "Raleway", sans-serif;
+  margin-right: 5px;
+  padding-left: 0;
+  width: 80%;
+}
+#search
+{
+    size: 900px;
+  font-size: 20px;
+ }
+.result
+{
+  width: 100%;
+  padding: 15px;
+  background: rgb(250, 250, 250);
+  border-left: 5px solid transparent;
+  border-radius: 5px;
+   font-size: 20px;
+}
+.result::hover {
+  border-left: 5px solid #CF9840;
+}
+li {
+    opacity: 0;
+    animation: new-item-animation .8s linear forwards;
+}
+ 
+@keyframes new-item-animation {
+    from {
+        opacity: 0;
+        transform: translateY(-400px);
+}
+ 
+    to {
+        opacity: 1;
+        transform : translateY(0);
+    }
+}
+li
+{
+  background: 	#F0E68C;
+}
